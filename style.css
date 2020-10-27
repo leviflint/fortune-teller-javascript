@@ -1,0 +1,51 @@
+* {
+    margin: 0;
+}
+
+.container {
+    background-image: radial-gradient(rgb(146, 146, 146), rgb(22, 22, 22));
+    display: grid;
+    justify-content: center;
+    align-content: center;
+    width: auto;
+    height: 100vh;
+}
+
+label {
+    text-align: center;
+    color: white;
+}
+
+p {
+    color: white;
+    margin-top: 10px;
+    text-align: center;
+    background-color: rgb(37, 37, 37);
+    border-radius: 5px;
+    padding: 8px;
+}
+
+button {
+    color: black;
+    background-color: white;
+    margin-top: 10px;
+    padding: 5px;
+    border: none;
+    border-radius: 5px;
+    max-width: 175px;
+    justify-self: center;
+}
+
+h1 {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    margin-bottom: 100px;
+    color: white;
+    filter: drop-shadow(0 0 0.75rem black);
+}
+
+input {
+    max-width: 150px;
+    justify-self: center;
+}
